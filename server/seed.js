@@ -3,7 +3,7 @@ const MongoClient = require("mongodb").MongoClient;
 const _ = require("lodash");
 
 async function main() {
-    const uri = "mongodb+srv://mugzdzed:mugzdzed@cluster0.j8enlct.mongodb.net/";
+    const uri = "mongodb+srv://vercel-admin-user:vercel-admin-user@cluster0.j8enlct.mongodb.net/?retryWrites=true&w=majority";
     const client = new MongoClient(uri);
 
     try {
